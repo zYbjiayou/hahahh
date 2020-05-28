@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../bootstrap/jquery.min.js"></script>
+    <style>
+       table{
+           border: 1px;
+           border-spacing: 1px;
+           border-collapse: collapse;
+           width: 500px;
+           margin: 50px auto;
+       }
+    </style>
+</head>
+<body>
+   <table border="1">
+       <tr>
+           <th>中国1</th>
+           <th>中国2</th>
+           <th>中国3</th>
+           <th>中国4</th>
+       </tr>
+       <tr>
+           <td>人民</td>
+           <td>人民</td>
+           <td>人民</td>
+           <td>人民</td>
+       </tr>
+       <tr>
+           <td>人民</td>
+           <td>人民</td>
+           <td>人民</td>
+           <td>人民</td>
+       </tr>
+       <tr>
+           <td>人民</td>
+           <td>人民</td>
+           <td>人民</td>
+           <td>人民</td>
+       </tr>
+       <tr>
+           <td>人民</td>
+           <td>人民</td>
+           <td>人民</td>
+           <td>人民</td>
+       </tr>
+       <tr>
+           <td>人民</td>
+           <td>人民</td>
+           <td>人民</td>
+           <td>人民</td>
+       </tr>
+   </table>
+
+   <script>
+       $("table tr:eq(2)").css({display:"none"});
+       $("table tr:eq(2)").css({display:"table-row"});
+   </script>
+</body>
+</html>
